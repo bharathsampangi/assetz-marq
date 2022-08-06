@@ -25,7 +25,7 @@
     justify-content: center;
     flex-grow: 1;
     flex-shrink: 0;
-    padding: 2rem 0;
+    padding: 2rem 0 0;
 }
 
 .textContainer h2 {
@@ -43,5 +43,8 @@
 @media screen and (min-width: 600px) {
     .whyContainer {
         display: flex;
+    }
+    .textContainer {
+        padding: 2rem 0;
     }
 }
