@@ -4,6 +4,7 @@ import Overview from "../Overview/Overview"
 import Township from "../Township/Township"
 import Why from "../Why/Why"
 import Amenities from "../Amenities/Amenities"
+import Gallery from "../Gallery/Gallery"
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Overview />
             <Why />
             <Amenities />
+            <Gallery />
         </>
     )
 }

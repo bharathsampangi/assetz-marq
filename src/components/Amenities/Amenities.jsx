@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./styles/Amenities.module.css"
 
 const Amenities = () => {
+
+    useEffect(() => {
+        document.getElementById('health').style.display = 'block'
+    }, [])
 
     const handleClick = (event, clsName) => {
         let altClass = clsName === 'health' ? 'others' : 'health'
