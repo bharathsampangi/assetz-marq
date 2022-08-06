@@ -1,4 +1,63 @@
 .container {
     max-width: 1200px;
-    margin: 5rem auto;
+    margin: 7rem auto;
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: var(--color-primary-dark);
+    text-align: center;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.amenitiesContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.amenitiesTabs {
+    flex-basis: 40%;
+    margin: 1rem;
+}
+
+.amenitiesImage {
+    flex-basis: 60%;
+    margin: 2rem 0;
+}
+
+.amenitiesImage img {
+    width: 100%;
+}
+
+.link {
+    font-size: max(14px, 1.25rem);
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.list {
+    padding: .5rem 2rem;
+    background-color: #e3e3e3;
+    display: none;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+.listAmenities > li {
+    font-size: max(12px, 1rem);
+    padding: .2rem 0;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@media screen and (min-width: 600px) {
+    .amenitiesContainer {
+        display: flex;
+        flex-direction: row;
+    }
 }
