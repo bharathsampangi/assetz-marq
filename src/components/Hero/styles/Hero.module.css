@@ -31,7 +31,7 @@
     width: 100%;
     flex-basis: 100%;
     background-color: var(--color-primary-dark);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)) ,url("../../../../public/images/Assetz-Marq-Apartments-in-Kannamangala-Whitefield-1.jpeg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)) ,url("../../../../public/images/Assetz-Marq-Apartments-in-Kannamangala-Whitefield-1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
