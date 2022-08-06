@@ -14,7 +14,7 @@ const Township = () => {
                 </p>
             </div>
             <div className={styles.townshipImage}>
-                <img src="/images/Middle-Pic.jpg" />
+                <img src="/images/Middle-Pic.jpg" alt="Township" />
             </div>
         </div>
     )

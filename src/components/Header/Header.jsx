@@ -4,7 +4,7 @@ import styles from "./styles/Header.module.css"
 const Header = () => {
     return (
         <div className={styles.headerContainer}>
-            <img className={styles.image} src="/images/Assetz-Marq-Logo.png" />
+            <img className={styles.image} src="/images/Assetz-Marq-Logo.png" alt="Logo"/>
         </div>
     )
 }

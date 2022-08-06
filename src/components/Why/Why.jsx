@@ -6,7 +6,7 @@ const Why = () => {
         <section className={styles.container}>
             <div className={styles.whyContainer}>
                 <div className={styles.image}>
-                    <img src="/images/Park.jpeg" />
+                    <img src="/images/Park.jpeg" alt="Park" />
                 </div>
                 <div className={styles.textContainer}>
                     {/* <div> */}
