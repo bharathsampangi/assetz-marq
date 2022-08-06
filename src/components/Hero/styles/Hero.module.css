@@ -1,0 +1,60 @@
+.heroContainer {
+    display: flex;
+    min-height: 70vh;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    height: 100%;
+}
+
+.heroText h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: max(4.5rem, 32px);
+    text-align: center;
+}
+
+.heroText h2 {
+    font-weight: 300;
+    font-size: max(1.25rem, 18px);
+    text-align: center;
+    width: 60%;
+}
+
+.hero {
+    width: 100%;
+    flex-basis: 100%;
+    background-color: var(--color-primary-dark);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)) ,url("../../../../public/images/Assetz-Marq-Apartments-in-Kannamangala-Whitefield-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroImage {
+    display: none;
+}
+
+@media screen and (min-device-width: 1000px) {
+    .hero {
+        flex-basis: 50%;
+        background-color: var(--color-primary-dark);
+        background-image: none;
+    }
+    
+    .heroImage {
+        display: block;
+        width: 100%;
+        flex-basis: 50%;
+    }
+
+    .heroImage img{
+        width: 100%;
+    }
+}

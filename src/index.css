@@ -3,12 +3,24 @@
     padding: 0;
     margin: 0;
 }
+
 :root {
     --color-primary-dark: #19544b;
 }
 
 html, body {
     font-family: 'Lato', sans-serif ;
+}
+
+html {
+    font-size: 62.5%;
+    min-width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    html {
+        font-size: 87.5%;
+    }
 }
 
 .pb-sm {

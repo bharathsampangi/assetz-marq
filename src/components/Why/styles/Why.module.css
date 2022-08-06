@@ -1,0 +1,47 @@
+.container {
+    max-width: 1200px;
+    margin: 5rem auto;
+}
+
+.whyContainer {
+    display: block;
+}
+
+.image {
+    flex-basis: 50%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.textContainer {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 2rem 0;
+}
+
+.textContainer h2 {
+    font-size: 2rem;
+    color: var(--color-primary-dark);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.listItem {
+    padding: .5rem;
+    font-size: max(12px, 1rem);
+}
+
+@media screen and (min-width: 600px) {
+    .whyContainer {
+        display: flex;
+    }
+}

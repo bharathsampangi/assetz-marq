@@ -1,9 +1,14 @@
 .headerContainer {
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    opacity: .4;
 }
 
 .image {
-    height: 100px;
-    /* width: 200px; */
+    height: 70px;
 }
