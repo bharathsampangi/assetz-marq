@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .navigation img {
-    height: 70px;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -23,7 +24,7 @@
     transition: all .3s;
 }
 
-.navigationList > li > a:hover {
+.navigationList > li > a:hover, a:active {
     background-color: var(--color-primary-dark);
     color: #fff;
 }
