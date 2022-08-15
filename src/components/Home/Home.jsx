@@ -7,7 +7,6 @@ import Amenities from "../Amenities/Amenities"
 import Gallery from "../Gallery/Gallery"
 import About from "../About/About"
 import Footer from "../Footer/Footer"
-import Navigation from "../Navigation/Navigation"
 
 const Home = () => {
     return (

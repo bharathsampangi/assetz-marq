@@ -10,4 +10,5 @@
     padding: .1rem 0;
     width: 80%;
     margin: 0 auto;
+    font-size: max(1rem, 12px);
 }
