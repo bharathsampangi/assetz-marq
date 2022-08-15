@@ -3,7 +3,7 @@ import styles from "./styles/About.module.css"
 
 const About = () => {
     return (
-        <section className={styles.about}>
+        <section id="about" className={styles.about}>
             <h2>About Us</h2>
             <p>
             Assetz Property Group was formed in 2006. In over a decade, Assetz has set the pace for a future that is better 

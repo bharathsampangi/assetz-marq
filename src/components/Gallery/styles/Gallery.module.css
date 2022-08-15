@@ -31,7 +31,7 @@
     transform: scale(1.025);
 }
 
-@media screen and (min-device-width: 600px) {
+@media screen and (min-device-width: 768px) {
     .galleryContainer {
         display: grid;
         grid-template-columns: repeat(7, 1fr);

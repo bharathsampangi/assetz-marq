@@ -3,7 +3,7 @@ import styles from "./styles/Overview.module.css"
 
 const Overview = () => {
     return (
-        <section className={styles.container}>
+        <section id="overview" className={styles.container}>
             <h2>Overview</h2>
             <div className={styles.overviewContainer}>
                 <div className={styles.overviewRow}>

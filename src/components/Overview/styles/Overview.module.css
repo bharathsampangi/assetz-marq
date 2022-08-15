@@ -39,7 +39,7 @@
     font-size: max(.95rem, 12px);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 1200px;
         margin: 10rem auto;

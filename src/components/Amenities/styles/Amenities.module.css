@@ -55,7 +55,7 @@
     to {opacity: 1;}
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 764px) {
     .container {
         margin: 7rem auto;
     }

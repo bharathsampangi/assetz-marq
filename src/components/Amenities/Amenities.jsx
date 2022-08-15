@@ -14,7 +14,7 @@ const Amenities = () => {
     }
 
     return (
-        <section className={styles.container}>
+        <section id="amenities" className={styles.container}>
             <h2>Amenities</h2>
             <div className={styles.amenitiesContainer}>
                 <div className={styles.amenitiesTabs}>
