@@ -3,7 +3,7 @@ import styles from "./styles/Gallery.module.css"
 
 const Gallery = () => {
     return (
-        <section className={styles.container}>
+        <section id="gallery" className={styles.container}>
             <h2>Gallery</h2>
             <div className={styles.galleryContainer}>
                 <img className={styles.image1} src="/images/Green-walkways-homepage-gallery.jpg" alt="Green Walkways"/>
